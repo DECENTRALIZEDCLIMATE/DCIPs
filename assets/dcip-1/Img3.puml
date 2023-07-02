@@ -1,0 +1,21 @@
+@startuml
+[*] --> Draft
+
+state Draft {
+  [*] --> Ready
+  Ready --> UnderReview : Submit for Voting
+}
+
+state UnderReview {
+  Approved : Approved
+  ChangesRequired : Changes Required
+  Blacklisted : Blacklisted
+}
+
+[*] --> Merged
+
+Draft --> Approved : Merge into DCIPs
+ChangesRequired --> UnderReview : Resubmit for Voting
+
+@enduml
+
