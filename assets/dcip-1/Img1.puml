@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+
+actor DCIPAuthor as "DCIP Author"
+actor DCIPEditors as "DCIP Editors"
+actor DCFMembers as "DAO/Foundation\nMembers"
+rectangle "Decentralized Climate\nFoundation DCIPs\nProcess" {
+  usecase "Open Proposal\non DCF Forum" as Discussion
+  usecase "Writes proposal\non DCIPs" as FProposals
+  usecase "Votes Proposal\non DAO" as VProposals
+}
+  FProposals -> Discussion: <<includes>>
+  DCIPAuthor -down-> Discussion : Vet Idea
+  DCIPEditors -down-> Discussion : Review Idea
+  DCFMembers -up-> Discussion : Participate in Discussion
+  DCIPAuthor -down-> VProposals 
+  DCFMembers -up-> VProposals 
+@enduml

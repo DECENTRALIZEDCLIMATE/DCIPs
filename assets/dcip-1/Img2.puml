@@ -1,0 +1,26 @@
+@startuml
+start
+:Discuss idea in forum;
+:Create draft in markdown;
+while (Draft ready?) is (no)
+  :Comment, brainstorm,\nand consensus ideas;
+endwhile (yes)
+:Fork DCIP repository;
+:Create the proposal draft post in the fork;
+:Submit improvement proposal (forked) for voting;
+while (proposal approved?) is (no)
+  fork
+    :Discuss and\nmake changes;
+  fork again
+    :Vote for blacklist;
+  endfork
+  if (Changes required?) then (yes)
+    :Modify proposal;
+  else (no)
+    :Black listed;
+    stop
+  endif
+endwhile (yes)
+:Merge fork into the DCIPs;
+stop
+@enduml
