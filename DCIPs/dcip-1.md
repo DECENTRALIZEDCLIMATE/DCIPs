@@ -11,7 +11,7 @@ layout: post
 
 ## Simple Summary
 
-DCIP-01, specifies what is an DCIP (Decentralized Climate Improvement Porposals) and how to write one.
+DCIP-01 specifies what a DCIP (Decentralized Climate Improvement Proposals) is and how to write one.
 
 
 ## Abstract
@@ -22,12 +22,11 @@ what a DCIP should include as a minimum requirement, their life cycle, and workf
 
 ## DCIP Motivation
 
-The goal of the Decentralize Climate Foundation is to be as Decentralized as posible, these also includes its organization, governance, operations, projects development and even founding.
+The goal of the Decentralize Climate Foundation is to be as decentralized as possible, which also includes its organization, governance, operations, projects development, and even founding.
 
-The Decentralized Climate Fundation base philosophy is considering that by bringing together a diversity of perspectives and encouraging open, evidence-based discussion, it is possible to reach better decisions and minimize corruption and mistakes. The Decentralized Climate Foundation seeks to take advantage of collective wisdom and challenge individual biases through a participatory and transparent process.
+The Decentralized Climate Foundation's base philosophy is that by bringing together a diversity of perspectives and encouraging open, evidence-based discussion, it is possible to reach better decisions and minimize corruption and mistakes. The Decentralized Climate Foundation seeks to take advantage of collective wisdom and challenge individual biases through a participatory and transparent process.
 
-The Decentralized Climate Foundation aims to operate in a decentralized manner, involving various participants in its governance and projects. It seeks to promote inclusion, transparency and informed participation to make evidence-based decisions and avoid corruption. Through a decentralized governance model, quadratic and rating voting mechanisms, openness in its operations and continuous evaluation, the foundation seeks to take advantage of the diversity of perspectives and knowledge to address climate change effectively.
-
+The Decentralized Climate Foundation aims to operate in a decentralized manner, involving various participants in its governance and projects. It seeks to promote inclusion, transparency, and informed participation to make evidence-based decisions and avoid corruption. Through a decentralized governance model, quadratic and rating voting mechanisms, openness in its operations, and continuous evaluation, the foundation seeks to take advantage of the diversity of perspectives and knowledge to address climate change effectively.
 
 
 ## Specification: Work Flow
@@ -37,7 +36,7 @@ The workflow begins with discussing and drafting improvement proposals on the DC
 
 ### DCIP Actors
 
-Shepherding an DCIP
+Shepherding a DCIP
 
 ![](/assets/dcip-1/Img1.svg)
 
@@ -45,7 +44,7 @@ Img 1. DCIP Actors Interaction with the DCIPs Process.
 
 Parties involved in the process are the DCIP author (you), the DCIP editors, and the Decentralized Climate Foundation Members.
 
-Before you begin writing a formal DCIP, you should vet your idea. Ask the Decentralized Climate Foundation community first if an idea is original to avoid wasting time on something that will be rejected based on prior research. It is thus recommended to open a discussion thread on the [DCF forum](https://forum.decentralizedclimate.org) to do this.
+Before you begin writing a formal DCIP, you should vet your idea. Ask the Decentralized Climate Foundation community first if an idea is original, to avoid wasting time on something that will be rejected based on prior research. It is thus recommended to open a discussion thread on the [DCF forum](https://forum.decentralizedclimate.org) to do this.
 
 *In short, your role is to write the DCIP using the style and format described below, shepherd the discussions in the appropriate forums, and build community consensus around the idea.*
 
@@ -64,7 +63,7 @@ Img 2. A DCIP Process as an Activity Diagram.
 
 4. If the proposal is approved, it is merged into the main DCIP repository, officially accepting and incorporating it into the system.
 
-5. If the proposal is not approved, two branches are followed. In one branch, participants engage in further discussion and make changes to address feedback and concerns. The modified proposal is resubmitted for voting, continuing the iterative process until it receives approval.
+5. If the proposal is not approved, two branches follow. In one branch, participants engage in further discussion and make changes to address feedback and concerns. The modified proposal is resubmitted for voting, continuing the iterative process until it receives approval.
 
 6. In the other branch, participants have the option to vote for blacklisting the proposal. If the majority votes for blacklisting, the proposal is marked as blacklisted, indicating it will not be considered further or included in the system.
 
@@ -77,19 +76,19 @@ Img 2. A DCIP Process as an Activity Diagram.
 
 ![](/assets/dcip-1/Img3.svg)
 
-Img 3. Possible Status of a Improvement Proposal
+Img 3. Possible Status of an Improvement Proposal
 
 1. **Draft**: This is the initial status of a proposal. It represents the stage where the proposal is being drafted and prepared for submission.
 
-2. **Ready**: Once the proposal is deemed ready for evaluation and voting, it transitions to the "Ready" status. At this stage, the proposal is considered complete and eligible for review.
+2. **Ready**: Once the proposal is deemed ready for evaluation and voting, it transitions to "Ready" status. At this stage, the proposal is considered complete and eligible for review.
 
-3. **Under Review**: When the proposal is submitted for voting, it enters the "Under Review" status. This status indicates that the proposal is currently being evaluated by the community or relevant stakeholders.
+3. **Under Review**: When the proposal is submitted for voting, it enters "Under Review" status. This status indicates that the proposal is currently being evaluated by the community or relevant stakeholders.
 
-4. **Approved**: If the proposal receives the necessary approval votes, it transitions to the "Approved" status. This status indicates that the proposal has been accepted and endorsed by the community.
+4. **Approved**: If the proposal receives the necessary approval votes, it transitions to "Approved" status. This status indicates that the proposal has been accepted and endorsed by the community.
 
 5. **Changes Required**: If feedback or concerns are raised during the voting process, the proposal may be deemed in need of changes. In such cases, it moves to the "Changes Required" status, indicating that modifications or revisions are necessary.
 
-6. **Blacklisted**: In certain situations, a proposal may be deemed inappropriate or unsuitable for inclusion. If the majority votes to blacklist the proposal, it moves to the "Blacklisted" status. This status signifies that the proposal has been rejected and will not be further considered.
+6. **Blacklisted**: In certain situations, a proposal may be deemed inappropriate or unsuitable for inclusion. If the majority votes to blacklist the proposal, it moves to "Blacklisted" status. This status signifies that the proposal has been rejected and will not be further considered.
 
 7. **Merged**: Once an approved proposal successfully undergoes the necessary procedures, such as merging into the DCIPs repository, it reaches the "Merged" status. This status indicates that the proposal has been officially incorporated into the system and its changes have been applied.
 
@@ -98,12 +97,12 @@ Img 3. Possible Status of a Improvement Proposal
 
 Each DCIP should have the following parts:
 
-- Preamble - RFC 822 style headers containing metadata about the DCIP, including the DCIP number, a short descriptive title (limited to a maximum of 44 characters), a description (limited to a maximum of 140 characters), and the author details. Irrespective of the category, the title and description should not include DCIP number. See [below](./dcip-1.md#dcip-header-preamble) for details.
+- Preamble - RFC 822 style headers containing metadata about the DCIP, including the DCIP number, a short descriptive title (limited to a maximum of 44 characters), a description (limited to a maximum of 140 characters), and the author details. Irrespective of the category, the title and description should not include the DCIP number. See [below](./dcip-1.md#dcip-header-preamble) for details.
 - Abstract - Abstract is a multi-sentence (short paragraph) technical summary. This should be a very terse and human-readable version of the specification section. Someone should be able to read only the abstract to get the gist of what this specification does.
-- Motivation *(optional)* - A motivation section is critical for DCIPs that want to change the Decentralized Climate Foundation Governance. It should clearly explain why the existing protocol specification is inadequate to address the problem that the DCIP solves. This section may be omitted if the motivation is evident.
+- Motivation *(optional)* - A motivation section is critical for DCIPs that want to change the Decentralized Climate Foundation's Governance. It should clearly explain why the existing protocol specification is inadequate to address the problem that the DCIP solves. This section may be omitted if the motivation is evident.
 - Specification - The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Decentralized Climate Foundation platforms (Forum, Snapshot, AragonDAO, Sheets).
 - Rationale - The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale should discuss important objections or concerns raised during discussion around the DCIP.
-- Backwards Compatibility *(optional)* - All DCIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their consequences. The DCIP must explain how the author proposes to deal with these incompatibilities. This section may be omitted if the proposal does not introduce any backwards incompatibilities, but this section must be included if backward incompatibilities exist.
+- Backwards Compatibility *(optional)* - All DCIPs that introduce backward incompatibilities must include a section describing these incompatibilities and their consequences. The DCIP must explain how the author proposes to deal with these incompatibilities. This section may be omitted if the proposal does not introduce any backwards incompatibilities, but this section must be included if backward incompatibilities exist.
 - Reference Implementation *(optional)* - An optional section that contains a reference/example implementation that people can use to assist in understanding or implementing this specification. This section may be omitted for all DCIPs.
 - Security Considerations - All DCIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Include information that might be important for security discussions, surfaces risks and can be used throughout the life-cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. DCIP submissions missing the "Security Considerations" section will be rejected. An DCIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.
 - Copyright Waiver - All DCIPs must be in the public domain. The copyright waiver MUST link to the license file and use the following wording: `Copyright and related rights waived via [CC0](../LICENSE.md).`
@@ -232,9 +231,9 @@ Once the DCIP is ready for the repository, the DCIP editor will:
 - Merge the corresponding [pull request](https://git.decentralizedclimate.org/DecentralizedClimateFoundation/DCIPs/pulls)
 - Send a message back to the DCIP author with the next step.
 
-Many DCIPs are written and maintained by developers with write access to the Decentralized Climate Foundation codebase. The DCIP editors monitor DCIP changes, and correct any structure, grammar, spelling, or markup mistakes we see.
+Many DCIPs are written and maintained by developers with write access to the Decentralized Climate Foundation codebase. The DCIP editors monitor DCIP changes and correct any structure, grammar, spelling, or markup mistakes we see.
 
-The editors don't pass judgment on DCIPs. We merely do the administrative & editorial part.
+The editors don't pass judgment on DCIPs. We merely do the administrative & editorial parts.
 
 ## Style Guide
 
@@ -273,6 +272,6 @@ Copyright and related rights via [GFDL](../LICENSE.md).
 
 ## References
 
-\[1\] Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>, et al., "EIP-1: EIP Purpose and Guidelines," Ethereum Improvement Proposals, no. 1, October 2015.
+\[1\] Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>, et al., "EIP-1: EIP Purpose and Guidelines," [Ethereum Improvement Proposals, no. 1,]() October 2015.
 
 
